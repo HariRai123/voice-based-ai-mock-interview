@@ -1,0 +1,1 @@
+export const VAPI_API_PUBLIC_KEY=import.meta.env.VITE_VAPI_API_PUBLIC_KEY
