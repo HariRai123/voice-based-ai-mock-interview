@@ -16,7 +16,7 @@ const Overview = () => {
         <Link to={'/interview'}>Start an Interview</Link>
       </Button>
       </div>
-      <img src={Robot} alt="robot" width={400} height={400} className="max-sm:hidden"/>
+      <img src={Robot} alt="robot" width={200} height={200} className="max-sm:hidden"/>
     </section>
     <section className="flex flex-col gap-6 mt-8">
       <h2 className="text-light-100">Your Interviews</h2>

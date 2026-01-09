@@ -307,8 +307,18 @@
 }
 
 @utility pattern {
-  @apply bg-[url('/pattern.png')] bg-top bg-no-repeat;
+  background-image: url("/pattern.jpg");
+  background-position: top center;
+  background-repeat: repeat-y;
+  background-size: cover;
+} 
+
+@media (min-width: 768px) {
+  .pattern {
+    background-attachment: fixed;
+  }
 }
+ 
 
 @utility blue-gradient-dark {
   @apply bg-gradient-to-b from-[#171532] to-[#08090D];
